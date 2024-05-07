@@ -1,1 +1,1 @@
-# Zettabyte-Internship---Cloud-Engineer-Candidate-Test---Technical-Test
+# Zettabyte Internship - Cloud Engineer Candidate Test - Technical Test
