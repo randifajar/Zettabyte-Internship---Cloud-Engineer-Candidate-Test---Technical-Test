@@ -12,12 +12,15 @@ const sentences = [
 ];
 
 function result(sentences) {
-  const len_array = [];
-  for (i in sentences) {
-    const result = sentences[i].trim().split(/\s+/);
-    len_array.push(result.length);
+
+  const len_sentence = [];
+
+  for (i in sentences){
+    const array = sentences[i].trim().split(/\s+/);
+    len_sentence.push(array.length);
   }
-  return Math.max(...len_array);
+
+  return Math.max(...len_sentence);
 }
 
 console.log(result(sentences));
